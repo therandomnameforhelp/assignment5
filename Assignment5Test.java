@@ -13,8 +13,8 @@ class Test {
    Persons_Information pers1;
    Persons_Information pers2;
    
-   pers1 = new Persons_Information(0);
-   pers2 = new Persons_Information(0);
+   pers1 = new Persons_Information();
+   pers2 = new Persons_Information(1111);
    
    }
 }
