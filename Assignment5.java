@@ -67,7 +67,13 @@ class Persons_Information {
 
    public Persons_Information (int atIdNumber) {
       idNumber = atIdNumber;
-      idNumber = 0;
+      personName = "";
+      currentAdress = "";
+      permanentAdress = "";
+      birthDate = "";
+      personAge = 0;
+      entryYear = 0;
+      totalYears = 0;
       }
       
 }
